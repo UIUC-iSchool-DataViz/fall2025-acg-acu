@@ -10,23 +10,24 @@ tas:
     email: tkhsiao2@illinois.edu
     office: Zoom
     office_hours: By appointment
-  -
-    name: Tali Zacks
-    email: tzacks2@illinois.edu
-    office: Zoom
-    office_hours: By appointment
 course:
   name: Data Visualization
   number: IS445
-  semester: Spring 2024
+  semester: Fall 2024
   section: ACG-ACU
-  location: iSchool 126
-  time: Tuesday and Thursday 3:30PM-4:20PM
+  location: 1027 Lincoln Hall
+  time: Mondays, 9:00AM-11:50AM
   credit_hours: 4
 urls:
   -
+    name: Slack
+    url: is445-fall2024.slack.com
+  - 
+    name: Canvas
+    url: https://canvas.illinois.edu/courses/47969
+  -
     name: Course Materials
-    url: https://uiuc-ischool-dataviz.github.io/spr2024/
+    url: https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu/
   -
     name: Github
-    url: https://github.com/UIUC-iSchool-DataViz/spr2024/
+    url: https://github.com/UIUC-iSchool-DataViz/fall2024-acg-acu/

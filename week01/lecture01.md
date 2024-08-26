@@ -395,7 +395,7 @@ There'll be a few more along the way.
 
 We will be sharing a slack channel with the in-person class, so feel free to converse with them as well!
 
- * Team channel at `https://is445-fall2023.slack.com`
+ * Team channel at `https://is445-fall2024.slack.com`
    * `#general` : General announcements, place to ask questions
    * `#random` : see a cool viz you want to share?  This is the place!
    * `#introduce-yourself` : where you want to "say hi" for Homework #1

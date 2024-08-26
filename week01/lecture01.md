@@ -742,10 +742,6 @@ Also, you can look at how different each of the sound-bars are on each link and 
 
 ---
 
-
-
-----
-
 ## I need a volunteer!
 
 notes:
@@ -973,7 +969,9 @@ Our choices must be:
 - Informed
 - Motivated
 - Justifiable
+
 ---
+
 ## Election Maps
 
 Mark Newman of the University of Michigan has created visualizations of the

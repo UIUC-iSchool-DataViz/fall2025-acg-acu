@@ -26,18 +26,16 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ## Basics
 
-3:30PM-4:50PM on Tuesdays and Thursdays, 501 E Daniel St
+9:00-11:50AM, 1027 Lincoln Hall
 
 ### Instructors & TAs
 
 Matthew Turk - `mjturk@illinois.edu`  
-Office Hours: Wednesday 2-3PM and **by appointment**
+Office Hours: **By appointment**
 
 Tzu-Kun (Esther) Hsiao - `tkhsiao2@illinois.edu`  
 
-Tali Zacks - `tzacks2@illinois.edu`
-
-https://uiuc-ischool-dataviz.github.io/spr2024/
+https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu/
 
 ---
 <!-- slide template="[[blank-slide]]" -->
@@ -45,11 +43,17 @@ https://uiuc-ischool-dataviz.github.io/spr2024/
 ## Summary of Locations
 
 - Grades and assignment links will be on [Canvas](https://canvas.illinois.edu/).
-- PrairieLearn: https://us.prairielearn.com/pl/course_instance/148453/ where assignments will be completed.
-- Course repo is at [UIUC-iSchool-DataViz/spr2024](https://github.com/UIUC-iSchool-DataViz/spr2024/), automatically built at [uiuc-ischool-dataviz.github.io/spr2024/](https://uiuc-ischool-dataviz.github.io/spr2024). Lecture notes, notebooks, data and course info will be placed there.
-- Slack: https://is445spring2024.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or `#general` for general questions)
+- PrairieLearn: https://us.prairielearn.com/pl/course_instance/161389/ where assignments will be completed.
+- Course repo is at [UIUC-iSchool-DataViz/fall2024-acg-acu](https://github.com/UIUC-iSchool-DataViz/fall2024-acg-acu/), automatically built at [uiuc-ischool-dataviz.github.io/fall2024-acg-acu/](https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu). Lecture notes, notebooks, data and course info will be placed there.
+- Slack: https://is445-fall2024.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or `#general` for general questions)
 
 You are invited to clone the repo, fork and submit changes (typos, etc!), and to use any information in it in the future.
+
+notes:
+
+A few notes about this semester -- while assignments will be posted on Canvas, the actual completion of the assignments will take place on the PrairieLearn platform.  We will discuss this in more detail when we get to looking at homework stuff, but in short these will be "online" cloud notebooks that have all the packages you need already installed so you don't have to install (too many) things on your local machine
+
+Also, we will be utilizing Slack for discussing homeworks with a dedicated channel for each assignment. Again, more on this when we get to looking at the homework (as part of your homework is to say hi on slack!)
 
 ---
 
@@ -93,9 +97,51 @@ However, PrairieLearn has a working installation you may also choose to use.
 
 ## Syllabus
 
-- Weeks 1-5: Basics of visualization
-- Weeks 6-10: Interactivity and Viz Types
-- Weeks 11-15: Platforms and dimensionality
+ * Week 1 (Today) - Introduction
+ * Week 2 - Data Storage and Operations
+ * Week 3 - Types of Viz and Choosing Colors
+ * Week 4 - Beginning interactivity
+ * Week 5 - Continuing interactivity with bqplot
+ * Week 6 - More with dashboards & Map Viz (**this class might be "flipped"**)
+ * Week 7 - Maps, maps and more maps
+ 
+notes:
+This is a rough syllabus!  These are many of the topics we will cover, but
+based on how the course proceeds and how folks respond, we may shorten or
+lengthen different topics.
+
+The organization here is designed to start out slow, dealing with how to
+program python for visualization, understanding how data is laid out, which
+operations we can apply to that data, and then moving on to representing data
+in different ways.
+
+We might start getting into javascript earlier, depending on how we are doing.
+
+---
+
+## Syllabus, cont
+
+ * Week 8 - Streamlit and Intro to Vega-lite/Altair
+ * Week 9 - Viz Audience; More Streamlit, Vega-lite (possible JavaScript)
+ * Week 10 - Streamlit Apps in HuggingFace
+ * Week 11 - A few more Streamlit+HuggingFace things; Publishing Viz
+ * Week 12 - Intro to Jekyll
+ * Week 13 - More Jekyll+Altair+vega-lite things
+ * Week 14 - Fall break, no class!
+ * Week 15 - Scientific Viz & AVL Guest lecture (**partially flipped class**)
+ * Week 16 - Network Visualization & Word clouds (**flipped class**)
+
+---
+
+## Syllabus: In summary
+
+ * Weeks 1-5: Basics of visualization (Python)
+ * Weeks 6-10: Interactivity and Viz Types (Python and HTML)
+ * Weeks 11-16: Platforms and dimensionality (Python, HTML/Javascript, Web-dev methods)
+
+notes:
+basically, we'll start with the basics - I'm assuming you are coming in with Python experience
+
 
 notes:
 This is a rough syllabus!  These are many of the topics we will cover, but
@@ -188,6 +234,16 @@ get in the way of the underlying meaning?
 1. What tools and ecosystems are available for visualizing data?
 1. What systems can be put in place to generate visualizations rapidly and with high-fidelity representation?
 
+---
+
+## Why aren't we learning viz software X?
+
+This is an *introduction* to data visualization - we will focus on the *fundamentals that underlie* all visualization tools, with a preference for Open Source tools.
+
+... but check out:
+
+ * [Tableau videos on MediaSpace](https://mediaspace.illinois.edu/tag/tagid/tableau) and Prof. [Wonderlich](https://ischool.illinois.edu/people/michael-wonderlich)'s courses. (Though, you might want to [check out some of the press](https://www.geekwire.com/2023/tableau-has-been-killed-by-salesforce-past-and-current-tableau-employees-gather-at-irish-wake/) about the future of development of Tableau.)
+ * [R/PowerBI](https://www.coursera.org/programs/coursera-for-illinois-gp2ja/learn/tools-exploratory-data-analysis-business) Coursera courses (that you get for free as a UIUC student!)
 
 ---
 
@@ -210,8 +266,8 @@ During the group coding, I might lead the class in some visualization in Python,
 
 ## Grading
 
-- 45% Standard assignments in prose or code form (see syllabus about 'required' assignments)
-- 20% Lab assignments which allow for "real time" checking of answers and feedback
+- 40% Standard assignments in prose or code form (see syllabus about 'required' assignments)
+- 25% Lab assignments which allow for "real time" checking of answers and feedback
 - 5% Quizzes on material covered in class
 - 30% Final project
 
@@ -232,8 +288,10 @@ group project that touches on coding as well as visual design.
 - Mix of prose and code
 - Assigned on Canvas, usually completed on PrairieLearn
 - Grading done by the instructional team with occasional feedback from PrairieLearn
-- 45% of grade, with the lowest score dropped except for required assignments
-- Total of 9 homeworks in the course.
+- Two extra credit options, assigned toward end of class
+- 40% of grade (maximum, including extra credit), lowest score dropped except for required assignments
+- A total of 6 Homeworks in the course
+- Generally due on Wednesdays (but always double check the due dates!)
 
 ---
 
@@ -243,8 +301,9 @@ group project that touches on coding as well as visual design.
 - Assigned on Canvas, completed on PrairieLearn
 - Grading done "automatically" on PrairieLearn - see example autograding in Homework 1
 - Can be attempted multiple times before the due date
-- 20% of grade, no assignments dropped
-- 4-5 Labs in the course (4 now, another might be added later)
+- 25% of grade, no assignments dropped
+- 7 Labs in the course
+- Generally due on Wednesdays (but always double check the due dates!)
 
 ---
 
@@ -254,7 +313,8 @@ group project that touches on coding as well as visual design.
 - Short answer/multiple choice
 - Graded automatically on PrairieLearn
 - Can be attempted multiple times _with decreasing scores_
-- ~12 Quizzes in the course
+- ~10 Quizzes in the course
+- Generally due on *Sundays* (but always double check the due dates!)
 
 ---
 
@@ -279,11 +339,13 @@ your own.  Always cite, and be reasonable in what you utilize.
 
 ## Our tools
 
-- Python and Javascript
-- Jupyter and Jupyter notebooks on a Jupyterhub
+- Python (possibly with some Javascript along the way)
+- [Jupyter](https://jupyter.org/) & Jupyter notebooks
 - The occasional usage of a shell such as bash
-- Javascript via Starboard, or in console or webpage
-- Once in a while some git, and GitHub
+- Git & [GitHub](https://github.com/) (toward end of class)
+- [Streamlit](https://streamlit.io/) 
+- Markdown & [Jekyll](https://jekyllrb.com/)
+- [HuggingFace](https://huggingface.co) for hosting apps
 - Slack
 
 notes:
@@ -297,11 +359,9 @@ Slack for class communication.
 
 We have a Slack channel for peer-to-peer discussion and questions about assignments.
 
-**You are not required to use Slack.**
-
 **No discussion of grades can happen in Slack.**
 
-https://is445spring2024.slack.com/
+https://is445-fall.slack.com/
 
 ---
 
@@ -322,7 +382,9 @@ In approximate order:
 - [matplotlib](https://matplotlib.org/)
 - [bqplot](https://bqplot.readthedocs.io/)
 - [vega-lite](https://vega.github.io/vega-lite)
-- [d3](https://d3js.org/)
+- [Streamlit](https://streamlit.io/)
+- [Altair](https://altair-viz.github.io/index.html)
+
 
 There'll be a few more along the way.
 
@@ -332,11 +394,11 @@ There'll be a few more along the way.
 
 We will be sharing a slack channel with the in-person class, so feel free to converse with them as well!
 
-- Team channel at `https://is445spring2024.slack.com`
-    - `#general` : General announcements, place to ask questions
-    - `#random` : see a cool viz you want to share? This is the place!
-    - `#introduce-yourself` : where you want to "say hi" for Homework #1
-    - `#ASSIGNMENTX-questions` : each assignment will have [a channel](https://slack.com/help/articles/205239967-Join-a-channel) for asking questions specific to that assignment
+ * Team channel at `https://is445-fall2023.slack.com`
+   * `#general` : General announcements, place to ask questions
+   * `#random` : see a cool viz you want to share?  This is the place!
+   * `#introduce-yourself` : where you want to "say hi" for Homework #1
+   * `#ASSIGNMENTX-questions` : each assignment will have [a channel](https://slack.com/help/articles/205239967-Join-a-channel) for asking questions specific to that assignment
 
 ---
 
@@ -356,7 +418,7 @@ Questions about grades should _always_ be over email.
 
 ## How do I access Slack?
 
-- Your @illinois email should enough to get you on, just go to: [https://is445spring2024.slack.com](https://is445spring2024.slack.com/)
+- Your @illinois email should enough to get you on, just go to: [https://is445-fall2024.slack.com](https://is445-fall2024.slack.com/)
 - Send me an email with _your_ email
 
 ---
@@ -398,9 +460,7 @@ Strategy:
 - Do the Javascript parts
 - Read the optional texts and documents
 
-
 ---
-
 
 ## Choose Your Own Adventure
 
@@ -413,9 +473,66 @@ Strategy:
 - Do the Javascript parts _in class_ and build on them for any homework
 - Come back to the optional texts and documents after the course is over
 
+---
+
+# Pause to check out Homework \#1
+
+notes:
+at this stage - go over the "log onto Slack", "syllabus quiz" and "intake survey" parts of the assignment
+
+we will get to the Python notebook "Introduction to PrairieLearn" sections next section
+
+---
+
+## Today
+
+ * What is a visualization?
+ * Why do we visualize?
+ * What types of data do we visualize?
+ * How do we visualize?
+
+---
+
+# Class Mission
+
+While you are already a _consumer_ of visualizations, your
+perspective should change to that of a _producer_ of visualizations.
+You should be comfortable reading AND writing imagery.
+
+notes:
+We will be discussing this as the semester goes on, but the principal outcome I
+want you to take away from this class is understanding how to transform data
+into its visual representation, and to take that understanding with you as you
+observe visualizations presented to you.
+
+By developing visualizations, you will grow to understand the choices that
+influence those visualizations, and you will bring that with you while
+consuming information visually.
+
+---
+
+# The Things I Want You To Take Away
+
+ * You should know the basics of how to manipulate data -- aggregations,
+   filterings, and other operations.
+ * I want you to know _some_ of the packages that are out there to visualize
+   data.  These will mostly be Python-based, with a couple in Javascript.
+ * You won't learn how to use dashboarding software (e.g. Tableau) in detail. Instead, we
+   will focus on the different operations that go into dashboarding software.
+ * By the end of the course, you will have had the opportunity to look at and
+   build visualizations in several different domains and understand how to
+   interpret, critique and improve them.
+
+notes:
+This course *will* teach you some things about how to code, how to build
+visualizations, but we're going to focus much more on learning about how to
+construct visualizations and why we make the choices that we do.  If we choose
+one way to present data, does that convey information more readily?  Or does it
+get in the way of the underlying meaning?
 
 
 ---
+
 
 ## What is a visualization?
 
@@ -487,6 +604,57 @@ Visualization **augments** human data analysis capabilities:
 notes:
 Not everything suits itself to visualization -- and part of the reason for that
 is the necessary reductionism that visualization can require.
+
+---
+
+# We can't visualize everything
+
+Peg + Cat:
+https://www.youtube.com/embed/In72QAQJ1tY?rel=0
+
+notes:
+"There are lots of thing you can compare on a graph / Like who is the shortest
+or the tallest giraffe / You can chart how much you walk / How much that you
+laugh / There are lots of things you can compare on a graph"
+
+"But the one thing you can't chart / Is how you feel in your heart"
+
+---
+
+# We can't visualize everything
+
+Peg + Cat:
+https://www.youtube.com/embed/In72QAQJ1tY?rel=0
+
+<img src="images/peg_cat1.png" alt="drawing" height="400"/>
+
+"There are lots of thing you can compare on a graph / Like who is the shortest
+or the tallest giraffe..."
+
+notes:
+"There are lots of thing you can compare on a graph / Like who is the shortest
+or the tallest giraffe / You can chart how much you walk / How much that you
+laugh / There are lots of things you can compare on a graph"
+
+"But the one thing you can't chart / Is how you feel in your heart"
+
+---
+
+# We can't visualize everything
+
+Peg + Cat:
+https://www.youtube.com/embed/In72QAQJ1tY?rel=0
+
+<img src="images/peg_cat2.png" alt="drawing" height="400"/>
+
+"But the one thing you can't chart / Is how you feel in your heart"
+
+notes:
+"There are lots of thing you can compare on a graph / Like who is the shortest
+or the tallest giraffe / You can chart how much you walk / How much that you
+laugh / There are lots of things you can compare on a graph"
+
+"But the one thing you can't chart / Is how you feel in your heart"
 
 ---
 
@@ -831,66 +999,32 @@ Map4 - percentage of votes by county
 
 Map5 - percentage of votes by county, weighted by population
 
+---
+
+## Getting started in Python
+
+*Let's check out the Python part of Homework \#1!*
+
+notes:
+
+**if taking a break -- fire up notebooks now!!**
+ 
+* fire up the notebook with HW1 that has NO auto grading
+* fire up the notebook with HW1 that DOES have autograding
+* look at extra HW assignment problem -- varients
+* look at the UNGRADED workbook -- if you want to follow along
+* talk about installing locally
 
 ---
 
-## Assignment 1
+## This week: Wrap-up
 
-- Identify three visualizations in pop culture -- *not* academic literature.
-  This could be, for instance, from:
-  - Movies / TV / Music videos
-  - Everyday life
-  - Advertisements
-- Describe each one in detail
-  - Where did the data come from?
-  - Is the data quantitative, qualitative, categorical, etc?
-  - How was the data processed before being displayed?
-  - What method was used to display that data?
-- Replicate the visualization with different, but similarly "shaped," data
-  - By hand is acceptable
-  - Computational methods should include source code
+ 1. We visualize to change how we understand things.
+ 1. We visualize data for ourselves, for our peers, and for others.
+ 1. Visualization is a series of steps that we take to produce a different
+    representation of data.
 
----
 
-## Example Submission
-
-This visualization is from the movie Alien (1979), directed by Ridley Scott.
-
-![terrain viz from Alien](images/alien_terrain.jpg)
-
-This visualization appears on screen as the ship carrying our protagonists
-approaches a planetoid; the terrain is unknown, and the computer displays it as
-it senses during approach.
-
----
-
-The terrain is displayed in a stratified manner; the lines are connected
-horizontally (giving the potentially misleading impression that the horizontal
-resolution is greater than vertical) and each “layer” appears to be opaque to
-the segments behind it.  Most standard visualization tools could generate an
-image very similar to this by simply overplotting lines (and staggering them
-according to the perspective of the viewpoint), but blocking out the terrain
-behind a given line is more complex and difficult.
-
-The data here has likely been generated by taking scan points and connecting
-them; while it’s possible that these are irregular in x and y, it looks as
-though they are regular in both.
-
----
-
-![terrain viz by hand](images/terrain_by_hand.jpg)
-
-I recreated this visualization by hand, and in doing so I changed the data
-somewhat.  I discovered that it’s considerably harder to generate this by hand
-than I expected!  I tried to draw out the lines, but the implied perspective
-made them appear strange and distorted.
-
-While doing this, I discovered that according to [Tisovˇcík
-2012](https://is.muni.cz/th/359691/fi_b/Thesis.pdf) this terrain was generated
-on the fly, rather than being stored ahead of time.  It was also the first
-terrain used in a movie, although it is contemporaneous with the famous
-"Unknown Pleasures" album cover that features a similar visualization of a
-pulsar.
 
 
 ---

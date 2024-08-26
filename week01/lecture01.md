@@ -1021,16 +1021,3 @@ notes:
  1. We visualize data for ourselves, for our peers, and for others.
  1. Visualization is a series of steps that we take to produce a different
     representation of data.
-
-
-
-
----
-
-## This week: Wrap-up
-
-1. We visualize to change how we understand things.
-1. We visualize data for ourselves, for our peers, and for others.
-1. Visualization is a series of steps that we take to produce a different
-   representation of data.
-

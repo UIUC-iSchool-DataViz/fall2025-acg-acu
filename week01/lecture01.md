@@ -255,6 +255,7 @@ This is an *introduction* to data visualization - we will focus on the *fundamen
 - Wrap-up (as needed)
 
 This isn't the first time we've taught this course, but we are always trying new things.  This semester, we're going to be focusing much more on separating apart the theory and the practice of visualization, and we're also going to be using PrairieLearn so that we can try out different tools.
+
 ![[images/structure-of-class 2023-08-18 15.06.16.excalidraw.svg]]
 
 notes:
@@ -369,7 +370,7 @@ https://is445-fall.slack.com/
 
 We're going to be using [PrairieLearn](https://us.prairielearn.com/) this semester.  You can find our course instance at:
 
-https://us.prairielearn.com/pl/course_instance/148453/
+https://us.prairielearn.com/pl/course_instance/161389/
 
 We'll try it out today and you can see how we can use it for in-class coding as well as for assignments.
 

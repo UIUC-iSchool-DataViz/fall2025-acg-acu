@@ -4,6 +4,10 @@ visible: true
 icon: undraw_version_control_9bpv.svg
 notitle: true
 examples: 
+  - filename: week02-inclass.ipynb
+    type: ipynb
+    title: Week 02 In-Class
+    description: Our in-class work from class
   - filename: lecture03_examples.ipynb
     type: ipynb
     title: Loading and Displaying Image Data

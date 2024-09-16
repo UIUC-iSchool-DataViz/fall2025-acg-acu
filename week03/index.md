@@ -1,6 +1,6 @@
 ---
 layout: week
-visible: false
+visible: true
 icon: undraw_cohort_analysis_stny.svg
 notitle: true
 examples:
@@ -12,6 +12,56 @@ examples:
     type: ipynb
     title: Colormaps
     description: We load in a brain scan and try some basics of colormapping in matplotlib.
+  - filename: prep_notebook_week03.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 3
+    description: Prep notebook for this week
+  - filename: inClass_week03.ipynb
+    type: ipynb
+    title: In class notebook, Week 3
+    description: Prep notebook for this week
+  - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_01.ipynb
+    description: Extra notebook from 2019 class
+  - filename: fall2019_prep_notebook_furtherExamples_02.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_02.ipynb
+    description: Extra notebook from 2019 class
+  - filename: fall2019_prep_notebook_furtherExamples_03.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_03.ipynb
+    description: Extra notebook from 2019 class
+  - filename: spring2019_prep_notebook_furtherExamples_week03.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_furtherExamples_week03.ipynb
+  - filename: spring2019_prep_notebook_week03_part1.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week03_part1.ipynb
+  - filename: spring2019_prep_notebook_week03_part2.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week03_part2.ipynb
+data:
+  - filename: building_inventory.csv
+    type: dataLink
+    title: Buildings dataset
+    description: Illinois buildings dataset
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
+  - filename: michigan_lld.flt
+    type: dataLink
+    title: Michigan Depth Map (86Mb)
+    description: Measurments taken from around Lake Michigan (https://www.ngdc.noaa.gov/mgg/greatlakes/michigan.html)
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/michigan_lld.flt
+  - filename: single_dicom.h5
+    type: dataLink
+    title: Brain Scan (72Mb)
+    description: MRI scan of a brain
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/single_dicom.h5
+library:
+  - filename: palette_colors.py
+    type: library
+    title: Palette Colors (palette_colors.py)
+    description: Python library, save to notebook folder or modify your path if you know how to do that
 ---
 
 # Transformations and Colors

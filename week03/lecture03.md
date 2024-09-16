@@ -157,12 +157,6 @@ via Wikimedia Commons
 
 ---
 
-## Let's Try It
-
-http://enchroma.com/test/instructions/
-
----
-
 ## Color Responsivity Function
 
 <!-- .slide: data-background-image="images/resp.png" data-background-size="auto 75%" -->
@@ -172,14 +166,125 @@ http://enchroma.com/test/instructions/
 
 ## "Naming" Colors
 
-- RGB triplets, often expressed in hexadecimel ("#00FFAA", etc)
-- Color spaces
-  - HSV (Hue, saturation, value)
-  - [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space)
-  - sRGB, Adobe sRGB
-- List of colors by name
-  - [Web](https://www.w3schools.com/colors/colors_names.asp)
-  - [matplotlib](https://matplotlib.org/2.0.2/examples/color/named_colors.html)
+<img src="images/hereIsAColor_nohexnohsvhorgb.png" height="600"/>
+
+notes: so, we talk about how colors are named in different systems, and we'll cover the most basic here
+
+---
+
+## "Naming" Colors
+
+<img src="images/hereIsAColor_nohexnohsv_a.png" height="600"/>
+
+notes: since we have RGB rods and cones, we might think the most natural way to represent this is with RGB colors
+
+This color wheel doesn't give an accurate depiction of all the colors in RGB space
+(since the space is actually 3d), but it is often
+what you'll see out in the real world, and its pretty easy to see where our example color lies.
+
+This is the representation you played with in the HW for this past week.
+
+---
+
+## "Naming" Colors
+
+<img src="images/hereIsAColor_nohex_a.png" height="600"/>
+
+notes: another representation is Hue, Saturation, and Value
+
+This depiction of HSV is in 3D here, and while its easier to visualize how colors change in the space, its
+also hard to accurately mark where our specific one is.
+
+---
+
+## "Naming" Colors
+
+<img src="images/hereIsAColor_allAnn.png" height="600"/>
+
+notes: here is another example - you'll see these codes a lot of you do html programming, but its another way to
+specify colors with HEX numbers.  You'll note our color isn't listed here, but in a longer table it would be.
+
+Hexadecimal only shows 16 million colors, RGB as uncompressed floats can theoretically represent quite a bit more (but there's a limitation of what monitors can display)
+
+R = 2^8
+G = 2^8
+B = 2^8
+
+RGB = 2^24 = 16 million
+
+hexadecimal = 16^6 = 16 million
+
+---
+
+## "Naming" Colors: R,G,B Mapping
+
+<img src="images/mandrillRGB.gif" width="600"/>
+
+notes:
+the mandrill image was an early color standardization image established by the Dept of Defense
+
+Here we split it into its R, G, & B components
+
+we can see different parts of this image are highlighted with specific colors -- red nose, blue/green cheeks/side of nose
+
+---
+
+## "Naming" Colors: R,G,B Mapping - Its limitations
+
+<table><tr>
+<td><img src="images/sRGB.gif" width="300"/></br>sRGB - graphics RGB</td>
+<td><img src="images/CIELAB.gif" width="300"/></br>CIELAB - human RGB perception</td>
+</tr></table>
+
+notes:
+this unified space of colors that works on most displays and printers is NOT the full range of human perception.
+
+on the left we see the color space available on a typical laptop screen, on the right we see the full range of what a human can see -- this space is larger
+
+---
+
+## HSV Wheel
+
+![HSV Wheel](./images/HSVcylinder.png)<!-- .element: width="500" -->
+
+https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
+
+By HSV_color_solid_cylinder.png: SharkD derivative work: SharkD Talk \[CC BY-SA 3.0
+(http://creativecommons.org/licenses/by-sa/3.0) or GFDL
+(http://www.gnu.org/copyleft/fdl.html)\], via Wikimedia Commons
+
+---
+
+## "Naming" Colors: HSV
+
+<img src="images/mandrillHSV.gif" width="500"/>
+(Cycle is though (1) H to change color, (2) S to change to grayscale, (3) V black to white)
+
+notes:
+This video scans through different hues, which are the part of the rainbow you want
+
+Then different saturations, which is how vibrant or gray the colors are
+
+Then different values, which is how bright or dark the colors are.
+
+Allow to run first and then comment.
+
+---
+
+## "Naming" Colors: HSV
+
+<img src="https://miro.medium.com/max/964/1*B2d44wTBqfygLEZ8ZTJXzg.png">
+
+notes:
+You might have actually played around with this system before if you've ever used a "color" picker app.
+
+Here we see we have picked a "H" for Hue as red
+
+We choose 50% saturation - i.e. how much of the color is in there where minimum is none of the color (gray)
+
+We also choose 50% "L" which is sometimes called "V" for Luminiance which controls white-to-black
+
+And here is one more channel = A for opacity.  Note that "A" sort of overlaps with both Saturation and Luminance so its usually not used to encode anything if we are using the others.
 
 ---
 
@@ -190,14 +295,193 @@ http://enchroma.com/test/instructions/
 
 ---
 
-## HSV Wheel
+## "Naming" Colors: Beyond HTML HEX - Specific Names
 
-https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder.png
+<table><tr>
+<td><img src="images/htmlColors.png" width="550"/></br>HTML</td>
+<td><img src="images/matplotlibColors.png" width="550"/></br>matplotlib</td>
+</tr></table>
 
-By HSV_color_solid_cylinder.png: SharkD derivative work: SharkD Talk \[CC BY-SA 3.0
-(http://creativecommons.org/licenses/by-sa/3.0) or GFDL
-(http://www.gnu.org/copyleft/fdl.html)\], via Wikimedia Commons
+notes:
+It's worth noting that "color words" are not consistent across languages or cultures. Color is a product of culture.
 
+
+---
+
+## "Naming" Colors: Summary
+
+ * Color spaces 
+   * HSV (Hue, saturation, value)
+   * [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space)
+   * sRGB, Adobe sRGB
+ * RGB triplets, sometimes compressed into hexadecimel ("#00FFAA", etc)
+ * List of colors by name
+   * [Web](https://www.w3schools.com/colors/colors_names.asp)
+   * [matplotlib](https://matplotlib.org/2.0.2/examples/color/named_colors.html)
+
+note: 
+coding environments will often provide "named" colors if you're more interested in simplicity than flexible design
+ 
+HSV is typically a color space used by color designers.
+
+sRGB "standard RGB" is a color space that was standardized to unify different monitors and printers. 
+
+CIELAB is the color space that covers the average of human vision.
+
+---
+
+## Importance of Color
+
+Which image has the red dot?
+
+notes:
+
+why is color important? to see why...
+
+lets play a game -- which image has a red dot?  yell out left or right
+
+we'll see a series of images
+
+---
+
+## Importance of Color
+
+Which image has the red dot?
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_P.gif">
+</div>
+
+<div class="right">
+ <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/colour_A.gif">
+</div>
+
+---
+
+## Importance of Color
+
+Which image has the red dot?
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/shape_A.gif">
+</div>
+
+<div class="right">
+ <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/shape_P.gif">
+</div>
+
+---
+
+## Importance of Color
+
+Which image has the red dot?
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/conjoin_A.gif">
+</div>
+
+<div class="right">
+ <img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/conjoin_P.gif">
+</div>
+
+---
+
+## Importance of Color
+
+[https://www.csc2.ncsu.edu/faculty/healey/PP/#jscript_search](https://www.csc2.ncsu.edu/faculty/healey/PP/#jscript_search)
+
+Color makes use of our "preattentive" visual cortex processing power -- we are able to detect color *before* our attention focuses.
+
+notes:
+which was the easiest one to do of these 3 images?
+
+we can make thinks more/less complex with this game (that is part of your optional reading for this week)
+
+---
+
+## Color maps as Visual Encoding
+
+Color maps encode a data attribute as a color.
+
+
+---
+
+## Color maps as Visual Encoding
+
+Color maps encode a data attribute as a color.
+
+<img src="images/pbn_pallet_long.png" width="600"/>
+
+<table><tr>
+<td><img src="images/pbn_outline.png" width="400"</td>
+<td><img src="http://3.bp.blogspot.com/_jxQyBncYPVE/TUFd8rPodoI/AAAAAAAAHuM/1NnmDWI_Poc/s1600/corgilobster.jpg" width="400"/></td>
+</tr></table>
+
+notes:
+you can think of it like a paint by numbers
+
+Here I give you outlines of sections of the page that have data values, here the numbers 1-13 and I assign them a "palette" of colors.
+
+---
+
+## Color maps as Visual Encoding
+
+Color maps encode a data attribute as a color.
+
+<img src="images/pbn_pallet_long.png" width="600"/>
+
+<table><tr>
+<td><img src="images/pbn_outline.png" width="400"/></td>
+<td><img src="images/pbn_filled.png" width="400"/></td>
+</tr></table>
+
+notes:
+Then I "paint" these colors on to make an image from my data
+
+---
+
+## Color maps as Visual Encoding
+
+Color maps encode a data attribute as a color.
+
+<table><tr>
+<td>Colormap</br><img src="images/pbn_filled_noborder.png" height="500"/></td>
+<td>Photo</br><img src="images/lobsterCorgi_orig.png" height="500"/></td>
+</tr></table>
+
+notes:
+Here I cheated a little bit and used a photo to generate my paint by numbers, so I get something back that looks like its photo
+
+But note that these images are generated in very different ways
+
+The colormap one was generated by a list of color values and instructions
+
+The photo is generated by RGB color combinations at every pixel
+
+---
+
+## Color Palettes
+
+<img src="https://web.natur.cuni.cz/~langhamr/lectures/vtfg1/mapinfo_2/barvy/S12-fullstructureClean.gif" width="600">
+
+Brewer, 1999
+
+notes:
+different kinds of color palettes can be used to describe different types of data
+
+Here is a nice way of mapping out our options.  For example, binary (T/F or Y/N) is pretty easy to encode with 2 colors or luminance.
+
+If we have 3 categories, we can choose different hues for qualatative data.
+
+If we have sequential data, like height maps we can choose differences in Hues or luminance.
+
+When we start combining them though, it can get a little more confusing -- for example diverging + sequential is a bit hard to parse
 
 ---
 
@@ -361,6 +645,119 @@ $ v' = (v - v_0)/(v_1 - v_0) $
 
 <div class="fig-container" data-style="height: 640px;" data-file="figures/apply_colormap.html" data-markdown=true>
 </div>
+
+---
+
+## Color Blindness
+
+<img src="images/colorBlind.png" width="800"/>
+
+notes:
+these are not the only types of color blindness, just the types where one of the three types of cone are missing. Sometimes that third cone is just "anomalous", and sometimes more than one cone is missing, but it's much rarer.
+
+You can see that designing for a color blind person can be difficult if you put all the information into one cone. You catch a wider audience by using the colors between the cones, like yellow, cyan, and magenta.
+
+protanopia = no red
+deuteranopia = no green
+trianopia = no blue
+
+---
+
+## Color Blindness
+
+http://enchroma.com/test/instructions/
+
+---
+
+
+## Color Blindness - But wait!
+
+http://enchroma.com/test/instructions/
+
+There's more: https://nakeddata.org/2021/01/22/accessible-data-visualisation-beyond-colour-blindness/
+
+Frank Elavksy (Staff Data Visualization Engineer + Designer on the Data Visualization team at Visa Inc.):
+ * High contrast text
+ * High contrast elements
+ * Using texture, shape, units
+ * Designing with zoom/magnification
+ * Using Hierarchy and Focus
+ * Using annotations or guides
+
+notes: the focus on colorblindness in data visualization is at the expense of much more prevalent considerations like designing for low-vision folks
+
+Elvansky suggests these other considerations are also extremely important to consider for folks that are visually impaired, a much larger portion of the population than those with colorblindness that are often ignored
+
+---
+
+## Other methods of visual encoding
+
+<table><tr>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_size.gif"/></br>Size</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_den.gif"/></br>Density</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_curve.gif"/></br>Curvature</td>
+</tr></table>
+
+Check out [sc2.ncsu.edu/faculty/healey/PP](sc2.ncsu.edu/faculty/healey/PP) for more examples and research.
+
+---
+
+## Other methods of visual encoding
+
+Motion is another channel, but is *very* attention-grabbing.
+
+<table><tr>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_flick.gif"/></br>Flicker</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_vel.gif"/></br>Velocity</td>
+<td><img src="https://www.csc2.ncsu.edu/faculty/healey/PP/figs/tg_dir.gif"/></br>Direction</td>
+</tr></table>
+
+Check out [https://www.csc2.ncsu.edu/faculty/healey/PP/](https://www.csc2.ncsu.edu/faculty/healey/PP/) for more examples and research.
+
+---
+
+## Color as a Perception Channel
+
+<!-- .slide: data-background-image="images/vad_slides_p51.png" data-background-size="auto 75%" -->
+
+notes:
+color hue, luminance and saturation make use of different "perception channels" listed here 
+
+there are others that we intuatively use, like position, length, tilt, area, ect
+
+These are ordered in terms of which are more effective to use -- i.e. which our brains has a better means of tracking -- for both numerical & ordered categorical data (ordered) and categorcial data that is ordinal (no obvious ordering)
+
+---
+
+## Color as a Perception Channel
+
+<!-- .slide: data-background-image="images/stevensLaw.png" data-background-size="auto 75%" -->
+
+notes:
+without going into too much detail, this has to do with how different stimuli map to human perception -- often it is highly non-linear
+
+For example, our sensation of electric shock is far more sensitive than just linear, but brightness is far less sensitive
+
+Length is the most linear -- which is why bar charts are so effective for transfering information!
+
+---
+
+## Colormaps: Loading Data
+
+Colormaps in Python - with the Michigan data and the scan data, we'll evaluate:
+
+ * How to choose a colormap
+ * What are some good "bounds" for that colormap
+ * How do we set our color normalizations and transformations?
+
+---
+
+# To Python!
+
+Let's also play with Pandas!
+
+notes:
+what we'll do is start of with some pandas stuff, since that will be useful for the HW and then circle back to color map stuffs
 
 ---
 

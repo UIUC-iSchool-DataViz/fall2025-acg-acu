@@ -1,9 +1,12 @@
 ---
 layout: week
-visible: false
+visible: true
 icon: undraw_under_construction_46pa.svg
 notitle: true
 examples:
+  - filename: lecture04_examples.ipynb
+    type: ipynb
+    title: In Class Examples from Fall 2024
   - filename: ipywidgets_intro.ipynb
     type: ipynb
     title: Intro to ipywidgets

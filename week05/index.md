@@ -4,6 +4,10 @@ visible: true
 icon: undraw_data_reports_706v.svg
 notitle: true
 examples:
+  - filename: lecture05_inclass.ipynb
+    type: ipynb
+    title: In-class Examples
+    description: We review a bqplot intro, then build out interactivity on it.
   - filename: lecture09_examples.ipynb
     type: ipynb
     title: bqplot with interactivity
@@ -20,6 +24,9 @@ examples:
     type: vega-lite
     title: vega-lite example 3
     description: Filtered horsepower cars chart
+  - filename: vega_example_4.md
+  - title: vega-lite example 4
+  - description: Interactive IMDB charts
 ---
 
 # Exploring More Interactivity

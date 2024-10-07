@@ -24,7 +24,7 @@ examples:
     type: vega-lite
     title: vega-lite example 3
     description: Filtered horsepower cars chart
-  - filename: vega_example_4.md
+  - filename: vega_example_4.html
     type: vega-lite
     title: vega-lite example 4
     description: Interactive IMDB charts

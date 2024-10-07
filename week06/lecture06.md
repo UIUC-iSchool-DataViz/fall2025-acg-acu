@@ -10,13 +10,6 @@ description: >-
   We start with a mechanism for comparing visualization engines.  Then, we go over more details of using vega-lite and how to embed vega-lite visualizations in a web page.
 ---
 
-# Status Check
-
-This week we will talk about evaluating engines for a bit.  Following that, we will work more on vega-lite, including building our website.
-
-You will receive an assignment today, due in two weeks.  This puts two assignments due on the same day, but they are substantially different.
-
----
 
 ## Evaluating Visualization Engines
 
@@ -117,22 +110,6 @@ When you construct something, think about the different ways it will be interpre
 - How will the viewer understand the story of the data?
 - What will the _message_ of the visualization be?
 - Does the visualization say something about you and your handling of the data or utilization of tools?
-
-
----
-
-## Assignment 4
-
-Your assignment is to pick four of the following possibilities and write up a set of comparisons for constructing the *same* visualization.   You must evaluate matplotlib, vega-lite and bqplot, and you can choose one of the following in addition: D3, Bokeh, Plotly, R/RStudio.
-
-These comparisons should be:
-
-- What is the license for the software?
-- What is the focus of the software?
-- Does it have interactivity, and how easy is it?
-- What are the pros and cons of using it?
-
-These should total roughly half a page per engine.
 
 
 ---

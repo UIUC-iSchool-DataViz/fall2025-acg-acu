@@ -26,7 +26,7 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ## Basics
 
-9:00-11:50AM, 1027 Lincoln Hall
+12:30-1:50PM, 432 Armory
 
 ### Instructors & TAs
 
@@ -35,7 +35,7 @@ Office Hours: **By appointment**
 
 Tzu-Kun (Esther) Hsiao - `tkhsiao2@illinois.edu`  
 
-https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu/
+https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/
 
 ---
 <!-- slide template="[[blank-slide]]" -->
@@ -44,8 +44,8 @@ https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu/
 
 - Grades and assignment links will be on [Canvas](https://canvas.illinois.edu/).
 - PrairieLearn: https://us.prairielearn.com/pl/course_instance/161389/ where assignments will be completed.
-- Course repo is at [UIUC-iSchool-DataViz/fall2024-acg-acu](https://github.com/UIUC-iSchool-DataViz/fall2024-acg-acu/), automatically built at [uiuc-ischool-dataviz.github.io/fall2024-acg-acu/](https://uiuc-ischool-dataviz.github.io/fall2024-acg-acu). Lecture notes, notebooks, data and course info will be placed there.
-- Slack: https://is445-fall2024.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or `#general` for general questions)
+- Course repo is at [UIUC-iSchool-DataViz/spr2025-bcg-bcu](https://github.com/UIUC-iSchool-DataViz/spr2025-bcg-bcu/), automatically built at [uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/](https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu). Lecture notes, notebooks, data and course info will be placed there.
+- Slack: https://is445-spr2025.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or `#general` for general questions)
 
 You are invited to clone the repo, fork and submit changes (typos, etc!), and to use any information in it in the future.
 
@@ -122,12 +122,12 @@ We might start getting into javascript earlier, depending on how we are doing.
 ## Syllabus, cont
 
  * Week 8 - Streamlit and Intro to Vega-lite/Altair
- * Week 9 - Viz Audience; More Streamlit, Vega-lite (possible JavaScript)
- * Week 10 - Streamlit Apps in HuggingFace
- * Week 11 - A few more Streamlit+HuggingFace things; Publishing Viz
- * Week 12 - Intro to Jekyll
- * Week 13 - More Jekyll+Altair+vega-lite things
- * Week 14 - Fall break, no class!
+ * Week 9 - Spring break, no class!
+ * Week 10 - Viz Audience; More Streamlit, Vega-lite (possible JavaScript)
+ * Week 11 - Streamlit Apps in HuggingFace
+ * Week 12 - A few more Streamlit+HuggingFace things; Publishing Viz
+ * Week 13 - Intro to Jekyll
+ * Week 14 - More Jekyll+Altair+vega-lite things
  * Week 15 - Scientific Viz & AVL Guest lecture (**partially flipped class**)
  * Week 16 - Network Visualization & Word clouds (**flipped class**)
 
@@ -249,9 +249,9 @@ This is an *introduction* to data visualization - we will focus on the *fundamen
 
 ## Structure of Class
 
-- Topic introduction and lecture (60-80 minutes, usually Tuesday)
-- Hands-on, in-class coding (Tuesday and Thursday)
-- Lab time (usually Thursday)
+- Topic introduction and lecture (60-80 minutes, usually Monday)
+- Hands-on, in-class coding (Monday and Wednesday)
+- Lab time (usually Wednesday)
 - Wrap-up (as needed)
 
 This isn't the first time we've taught this course, but we are always trying new things.  This semester, we're going to be focusing much more on separating apart the theory and the practice of visualization, and we're also going to be using PrairieLearn so that we can try out different tools.
@@ -362,7 +362,7 @@ We have a Slack channel for peer-to-peer discussion and questions about assignme
 
 **No discussion of grades can happen in Slack.**
 
-https://is445-fall.slack.com/
+https://is445-spr2025.slack.com/
 
 ---
 
@@ -395,7 +395,7 @@ There'll be a few more along the way.
 
 We will be sharing a slack channel with the in-person class, so feel free to converse with them as well!
 
- * Team channel at `https://is445-fall2024.slack.com`
+ * Team channel at `https://is445-spr2025.slack.com`
    * `#general` : General announcements, place to ask questions
    * `#random` : see a cool viz you want to share?  This is the place!
    * `#introduce-yourself` : where you want to "say hi" for Homework #1
@@ -419,7 +419,7 @@ Questions about grades should _always_ be over email.
 
 ## How do I access Slack?
 
-- Your @illinois email should enough to get you on, just go to: [https://is445-fall2024.slack.com](https://is445-fall2024.slack.com/)
+- Your @illinois email should enough to get you on, just go to: [https://is445-spr2025.slack.com](https://is445-spr2025.slack.com/)
 - Send me an email with _your_ email
 
 ---

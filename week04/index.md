@@ -7,6 +7,9 @@ examples:
   - filename: week04-inclass.ipynb
     type: ipynb
     title: In Class Examples from Spring 2025
+  - filename: week04-inclass-02.ipynb
+    type: ipynb
+    title: In Class Examples from Spring 2025 part 2
   - filename: lecture04_examples.ipynb
     type: ipynb
     title: In Class Examples from Fall 2024

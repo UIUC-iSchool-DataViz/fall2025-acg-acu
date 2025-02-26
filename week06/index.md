@@ -40,6 +40,10 @@ examples:
     type: vega-lite
     title: Selection example
     description: Selecting data in vega-lite
+  - filename: vega_example_building_inventory_rank.md
+    type: vega-lite
+    title: Ranking agencies in building inventory
+    description: Window operations and aggregation
 ---
 
 # Viz engines, vega-lite and the web

@@ -11,6 +11,13 @@ layout: vegalite_example
   "width": 600,
   "height": 400,
   "mark": "bar",
+  "params": [
+    {
+      "bind": {"input": "range", "min": 0, "max": 10, "step": 1, "name": "Rank Wanted"},
+      "value": 5,
+      "name": "rank_wanted"
+    }
+  ],
   "transform": [
     {
       "aggregate": [
@@ -23,7 +30,7 @@ layout: vegalite_example
         {"field": "total_by_agency", "op": "rank", "as": "agency_rank"}
       ]
     },
-    {"filter": {"field": "agency_rank", "lte": 5}}
+    {"filter": "datum.agency_rank <= rank_wanted"}
   ],
   "encoding": {
     "x": {"field": "Agency Name"},

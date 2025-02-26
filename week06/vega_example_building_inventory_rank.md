@@ -3,6 +3,7 @@ title: Building ranking operation
 description: Top-5 agencies for building inventory
 layout: vegalite_example
 ---
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {

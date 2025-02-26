@@ -44,6 +44,10 @@ examples:
     type: vega-lite
     title: Ranking agencies in building inventory
     description: Window operations and aggregation
+  - filename: vega_example_building_inventory_by_year.md
+    type: vega-lite
+    title: Ranking agencies in building inventoryby year
+    description: Window operations and aggregation
 ---
 
 # Viz engines, vega-lite and the web

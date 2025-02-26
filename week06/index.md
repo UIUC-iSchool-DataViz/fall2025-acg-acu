@@ -16,6 +16,30 @@ examples:
     type: vega-lite
     title: vega-lite example 4
     description: Applying filtering, hconcat, layers and selections
+  - filename: vega_example_building_inventory.md
+    type: vega-lite
+    title: Building inventory
+    description: 
+  - filename: vega_example_gross.md
+    type: vega-lite
+    title: Gross total
+    description: IMDB vega-lite example
+  - filename: vega_example_imdb_bar_selection.md
+    type: vega-lite
+    title: Selecting Bars in vega-lite
+    description: 
+  - filename: vega_example_imdb_bar_selection_total.md
+    type: vega-lite
+    title: Bar selection with total
+    description: 
+  - filename: vega_example_param_radius.md
+    type: vega-lite
+    title: Binding a parameter
+    description: Radius bound by parameter
+  - filename: vega_example_selection.md
+    type: vega-lite
+    title: Selection example
+    description: Selecting data in vega-lite
 ---
 
 # Viz engines, vega-lite and the web

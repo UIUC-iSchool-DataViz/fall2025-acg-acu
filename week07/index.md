@@ -4,6 +4,10 @@ visible: true
 icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples: 
+  - filename: bqplot_covid_timedashboard.ipynb
+    type: ipynb
+    title: COVID Time Series Maps
+    description: An example visualization of COVID cases with bqplot and time interval selection
   - filename: lecture07_examples.ipynb
     type: ipynb
     title: 2024 Time Series and Maps

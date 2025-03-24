@@ -3,7 +3,11 @@ layout: week
 visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
-examples: []
+examples: 
+  - filename: covid-dashboard-v1.html
+    type: vega-lite
+    title: Start of our COVID dashboard
+    description: 
 ---
 
 # Intermediate Vega Lite

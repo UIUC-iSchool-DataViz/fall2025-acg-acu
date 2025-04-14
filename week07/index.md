@@ -1,14 +1,18 @@
 ---
 layout: week
-visible: false
+visible: true
 icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples: 
-  - filename: lecture07_inclass.ipynb
+  - filename: bqplot_covid_timedashboard.ipynb
+    type: ipynb
+    title: COVID Time Series Maps
+    description: An example visualization of COVID cases with bqplot and time interval selection
+  - filename: lecture07_examples.ipynb
     type: ipynb
     title: 2024 Time Series and Maps
     description: We start out making some time series visualizations in bqplot, then begin moving to overlay them on maps.
-  - filename: lecture07_inclass.ipynb
+  - filename: lecture07_inclass.ipnyb
     type: ipynb
     title: Maps and time series
     description: We start out making some time series visualizations in bqplot, then begin moving to overlay them on maps.

@@ -1,6 +1,6 @@
 ---
 layout: week
-visible: false
+visible: true
 icon: undraw_metrics_gtu7.svg
 notitle: true
 examples:
@@ -16,6 +16,38 @@ examples:
     type: vega-lite
     title: vega-lite example 4
     description: Applying filtering, hconcat, layers and selections
+  - filename: vega_example_building_inventory.html
+    type: vega-lite
+    title: Building inventory
+    description: 
+  - filename: vega_example_gross.html
+    type: vega-lite
+    title: Gross total
+    description: IMDB vega-lite example
+  - filename: vega_example_imdb_bar_selection.html
+    type: vega-lite
+    title: Selecting Bars in vega-lite
+    description: 
+  - filename: vega_example_imdb_bar_selection_total.html
+    type: vega-lite
+    title: Bar selection with total
+    description: 
+  - filename: vega_example_param_radius.html
+    type: vega-lite
+    title: Binding a parameter
+    description: Radius bound by parameter
+  - filename: vega_example_selection.html
+    type: vega-lite
+    title: Selection example
+    description: Selecting data in vega-lite
+  - filename: vega_example_building_inventory_rank.html
+    type: vega-lite
+    title: Ranking agencies in building inventory
+    description: Window operations and aggregation
+  - filename: vega_example_building_inventory_by_year.html
+    type: vega-lite
+    title: Ranking agencies in building inventoryby year
+    description: Window operations and aggregation
 ---
 
 # Viz engines, vega-lite and the web

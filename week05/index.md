@@ -1,6 +1,6 @@
 ---
 layout: week
-visible: false
+visible: true
 icon: undraw_data_reports_706v.svg
 notitle: true
 examples:
@@ -40,6 +40,8 @@ visualizations and how we can use that understanding to better guide our
 construction.
 
 ## References and Reading List
+
+[Example Spring 2025 Website from end of class Wednesday.](https://github.com/matthewturk/spr2025-website-example/tree/43e4e42f9f3f3545118f7c1a21623d7bd238cb8a)
 
  1. [Narrative Visualization](http://doi.org/10.1109/TVCG.2010.179) by Segel and
    Heer

@@ -1,20 +1,121 @@
 ---
-title: Dynamics in D3
+title: Validation and more D3
 layout: lecture
 tags:
   - d3
   - javascript
 description: >-
-  This week we talked about using D3 for transitions, interaction, and we started sketching out our final project.
+  This week we talked about validating viz, and then using D3 for transitions and interaction.
 ---
 
-# Housekeeping
+## Validation
 
- * Having issues with uploading notebooks that will be corrected.
- * Starting after Thanksgiving break, we will be doing group presentations.
- * Order to be announced after groups assigned.
+How do you know your visualization is actually useful? Is it...
+
+ * More comprehensive or contextual
+ * More revealing or educational
+ * More fun or pleasant to use
+ * More efficient or fast
+
+notes:
+What do we even mean "more than"? More than what?
+
+More than just looking at numbers?
+
+More than a previous visualization?
+
+More than the state of the art?
 
 ---
+
+## Validation
+
+Why is validating a visualization important?
+
+ 1. The design space is huge
+ 1. Most designs are ineffective
+ 1. User-focused design is often an afterthought
+ 1. The "quality" of a visualization is subjective
+
+notes:
+Can you all think of a user experience that drives you nuts in your daily life? A pointless button in your email? A door that opens the wrong way? A noisy piece of machinery?
+
+---
+
+## Validation
+
+What can a visualization designer get wrong?
+
+ * Misunderstand the needs of the domain expert or educator
+ * Interpret the data incorrectly
+ * Represent the data in a visually confusing way
+ * The software is too laggy or difficult to use in a practical setting
+
+notes:
+Any other ideas?
+
+---
+
+## Methods of Validation
+
+Before developing your visualization system:
+
+ 1. Observe and interview target users or audience members
+ 1. Justify interaction design plans against the academic literature and existing tools
+ 1. Do an analysis of the complexity of the system
+
+---
+
+## Methods of Validation
+
+After developing your visualization prototype:
+
+ 1. Measure system performance
+ 1. Usability studies (formal and/or informal)
+ 1. Measure human time to complete a task, or number of user errors
+ 1. Do a field study - perhaps even collect user data with the system
+
+notes:
+You don't have to do all of these all the time, but depending on the project they might all be a good idea
+
+Also, remember to respect user privacy when collecting user data. This is extremely sensitive.
+
+---
+
+## Methods of Validation
+
+After publishing your visualization:
+
+ 1. Observe adoption rates
+ 1. Solicit anecdotal user feedback
+
+notes:
+This is especially valuable if you expect to have to make more than one visualization in your life. Building intuition for what works and what doesn't is a large part of the career success of a visualization designer.
+
+The Advanced Visualization Lab interacts with audiences through lab demos and conference talks regularly to collect this kind of feedback.
+
+**we'll be getting a talk from the head of the AVL in week 13**
+
+---
+
+## Example informal Validation: AVL
+
+<img src="images/inf_val.jpg" width="800"/>
+
+notes: here is an example of an informal validataion that the AVL does a lot of.  
+
+Here the data visualizers are doing a showing of their movie and asking audiences for feedback - both on what they liked and didn't like, but also on what they learned.
+
+---
+
+## Validation in Final Project
+
+Your peers will ask you questions in the Open Discussion Forum. 
+
+Try to understand what is working for them and what is not. It will help hone your instincts.
+
+
+
 
 # Final Project
 

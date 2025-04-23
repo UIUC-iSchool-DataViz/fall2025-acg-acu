@@ -35,11 +35,11 @@ npm install tailwindcss @tailwindcss/vite
 
 # Initializing our Skeleton Template
 
-Now, we have to add the `tailwindcss` to our `vite` plugin.  (What's `vite`, you say?!)
+Now, we have to add the `tailwindcss` to our `vite` plugin.  (What's `vite`, you say?!)  This goes in `vite.config.js`.
 
 ```typescript
 import { defineConfig } from "vite";
-import svelte from "@vitejs/plugin-svelte";
+import { svelte } from "@vitejs/vite-plugin-svelte";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({

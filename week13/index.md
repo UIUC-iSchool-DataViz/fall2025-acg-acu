@@ -6,8 +6,8 @@ notitle: true
 examples: []
 ---
 
-# Dynamics and Interaction in D3
+# Dynamics and Interaction in D3 and Svelte
 
 This week we discussed how to develop dynamic D3 visualizations and
 interactivity in those visualizations, as well as how to use different scales
-in D3.
+in D3.  We also built out a basic Svelte app.

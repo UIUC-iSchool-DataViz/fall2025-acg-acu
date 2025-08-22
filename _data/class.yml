@@ -12,9 +12,9 @@ tas:
     office_hours: By appointment
   -
     name: Jingyuan Chen
-    email:
-    office:
-    office_hours:
+    email: jc190@illinois.edu
+    office: 614 E. Daniel Street, Room 5080
+    office_hours: By appointment
 course:
   name: Data Visualization
   number: IS445

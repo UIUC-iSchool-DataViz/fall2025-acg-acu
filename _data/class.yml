@@ -2,32 +2,34 @@ instructors:
   -
     name: Matthew Turk
     email: mjturk@illinois.edu
-    office: Room 5115, 614 E Daniel
+    office: NCSA - Room 4038
     office_hours: By appointment
 tas:
   -
-    name: Tzu-Kun Hsiao
-    email: tkhsiao2@illinois.edu
-    office: Zoom
-    office_hours: By appointment
+    name: Yilin Xia
+    email:
+    office:
+    office_hours:
+  -
+    name: Jingyuan Chen
+    email:
+    office:
+    office_hours:
 course:
   name: Data Visualization
   number: IS445
-  semester: Spring 2025
-  section: BCG-BCU
-  location: Armory 432
-  time: Mondays and Wednesdays, 12:30-1:50PM
+  semester: Fall 2025
+  section: ACG-ACU
+  location: Turner Hall, room W109
+  time: Mondays, 9:00AM-11:50AM
   credit_hours: 4
 urls:
   -
-    name: Slack
-    url: is445-spr2025.slack.com
-  - 
     name: Canvas
-    url: https://canvas.illinois.edu/courses/42034
+    url: https://canvas.illinois.edu/courses/58975
   -
     name: Course Materials
-    url: https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/
+    url: https://uiuc-ischool-dataviz.github.io/fall2025-acg-acu/
   -
     name: Github
-    url: https://github.com/UIUC-iSchool-DataViz/spr2025-bcg-bcu/
+    url: https://github.com/UIUC-iSchool-DataViz/fall2025-acg-acu/

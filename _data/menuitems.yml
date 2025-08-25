@@ -7,3 +7,7 @@
   facollection: fab
   faicon: fa-comment
   weight: 20
+- name: PrairieLearn
+  url: https://us.prairielearn.com/pl/course_instance/192343
+  faicon: fa-school
+  weight: 50

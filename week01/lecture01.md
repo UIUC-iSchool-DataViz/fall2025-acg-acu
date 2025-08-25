@@ -26,16 +26,17 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ## Basics
 
-12:30-1:50PM, 432 Armory
+9:00AM-11:50AM, W-109 Turner Hall
 
 ### Instructors & TAs
 
 Matthew Turk - `mjturk@illinois.edu`  
 Office Hours: **By appointment**
 
-Tzu-Kun (Esther) Hsiao - `tkhsiao2@illinois.edu`  
+- Yilin Xia - `yilinx2@illinois.edu`
+- Jingyuan Chen - `jc190@illinois.edu`
 
-https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/
+https://uiuc-ischool-dataviz.github.io/fall2025-acg-acu/
 
 ---
 <!-- slide template="[[blank-slide]]" -->
@@ -43,9 +44,9 @@ https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/
 ## Summary of Locations
 
 - Grades and assignment links will be on [Canvas](https://canvas.illinois.edu/).
-- PrairieLearn: https://us.prairielearn.com/pl/course_instance/161389/ where assignments will be completed.
-- Course repo is at [UIUC-iSchool-DataViz/spr2025-bcg-bcu](https://github.com/UIUC-iSchool-DataViz/spr2025-bcg-bcu/), automatically built at [uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu/](https://uiuc-ischool-dataviz.github.io/spr2025-bcg-bcu). Lecture notes, notebooks, data and course info will be placed there.
-- Slack: https://is445-spr2025.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or `#general` for general questions)
+- PrairieLearn: https://us.prairielearn.com/pl/course_instance/192343 where assignments will be completed.
+- Course repo is at [UIUC-iSchool-DataViz/fall2025-acg-acu](https://github.com/UIUC-iSchool-DataViz/fall2025-acg-acu/), automatically built at [uiuc-ischool-dataviz.github.io/fall2025-acg-acu/](https://uiuc-ischool-dataviz.github.io/fall2025-acg-acu). Lecture notes, notebooks, data and course info will be placed there.
+- CampusWire: https://campuswire.com/c/GC79A285B - the best place to ask questions in a channel either about the homework or about the general discussion of a language or framework.
 
 You are invited to clone the repo, fork and submit changes (typos, etc!), and to use any information in it in the future.
 
@@ -53,7 +54,7 @@ notes:
 
 A few notes about this semester -- while assignments will be posted on Canvas, the actual completion of the assignments will take place on the PrairieLearn platform.  We will discuss this in more detail when we get to looking at homework stuff, but in short these will be "online" cloud notebooks that have all the packages you need already installed so you don't have to install (too many) things on your local machine
 
-Also, we will be utilizing Slack for discussing homeworks with a dedicated channel for each assignment. Again, more on this when we get to looking at the homework (as part of your homework is to say hi on slack!)
+Also, we will be utilizing CampusWire for discussing homeworks. Again, more on this when we get to looking at the homework (as part of your homework is to say hi on slack!)
 
 ---
 
@@ -347,22 +348,20 @@ your own.  Always cite, and be reasonable in what you utilize.
 - [Streamlit](https://streamlit.io/) 
 - Markdown & [Jekyll](https://jekyllrb.com/)
 - [HuggingFace](https://huggingface.co) for hosting apps
-- Slack
+- CampusWire
 
 notes:
 You will be expected to write code in Python, and to learn the very basics of
 Javascript.  Your projects may be turned in via git.  We will also utilize
-Slack for class communication.
+CampusWire for class communication.
 
 ---
 
-## Slack
+## CampusWire
 
-We have a Slack channel for peer-to-peer discussion and questions about assignments.
+We have a CampusWire instance for peer-to-peer discussion and questions about assignments.
 
-**No discussion of grades can happen in Slack.**
-
-https://is445-spr2025.slack.com/
+**No discussion of grades can happen on CampusWire.**
 
 ---
 
@@ -370,7 +369,7 @@ https://is445-spr2025.slack.com/
 
 We're going to be using [PrairieLearn](https://us.prairielearn.com/) this semester.  You can find our course instance at:
 
-https://us.prairielearn.com/pl/course_instance/161389/
+https://us.prairielearn.com/pl/course_instance/192343
 
 We'll try it out today and you can see how we can use it for in-class coding as well as for assignments.
 
@@ -391,7 +390,7 @@ There'll be a few more along the way.
 
 ---
 
-## Slack
+## CampusWire
 
 We will be sharing a slack channel with the in-person class, so feel free to converse with them as well!
 
@@ -399,11 +398,10 @@ We will be sharing a slack channel with the in-person class, so feel free to con
    * `#general` : General announcements, place to ask questions
    * `#random` : see a cool viz you want to share?  This is the place!
    * `#introduce-yourself` : where you want to "say hi" for Homework #1
-   * `#ASSIGNMENTX-questions` : each assignment will have [a channel](https://slack.com/help/articles/205239967-Join-a-channel) for asking questions specific to that assignment
 
 ---
 
-## Slack (cont)
+## CampusWire (cont)
 
 - Use the `@` sign appropriately: `@[person]`, `@here`, `@channel`
 - Web client, standalone client and mobile devices can access this team.
@@ -411,16 +409,16 @@ We will be sharing a slack channel with the in-person class, so feel free to con
 - Please think carefully before direct messaging if you could ask in a public forum instead.
 - Conduct will be held to same standards as any educational venue.
 
-Slack turn-around time ~24 business hours or less (general/section channel), email ~3 business days or less
+CampusWire turn-around time ~24 business hours or less (general/section channel), email ~3 business days or less
 
 Questions about grades should _always_ be over email.
 
 ---
 
-## How do I access Slack?
+## How do I access CampusWire?
 
-- Your @illinois email should enough to get you on, just go to: [https://is445-spr2025.slack.com](https://is445-spr2025.slack.com/)
-- Send me an email with _your_ email
+- https://campuswire.com/p/GC79A285B with the code I gave in class and email
+- Send an email to Yilin or Jingyuan
 
 ---
 
@@ -479,7 +477,7 @@ Strategy:
 # Pause to check out Homework \#1
 
 notes:
-at this stage - go over the "log onto Slack", "syllabus quiz" and "intake survey" parts of the assignment
+at this stage - go over the "log onto CampusLearn", "syllabus quiz" and "intake survey" parts of the assignment
 
 we will get to the Python notebook "Introduction to PrairieLearn" sections next section
 
